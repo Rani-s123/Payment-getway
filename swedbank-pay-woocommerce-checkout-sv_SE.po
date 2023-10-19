@@ -1,0 +1,519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Gateway PayEx Checkout\n"
+"POT-Creation-Date: 2021-02-20 18:04+0600\n"
+"PO-Revision-Date: 2021-02-20 18:06+0600\n"
+"Last-Translator: main <main@localhost>\n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e;_e(sprintf;__(sprintf;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:179
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:378
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:387
+msgid "Swedbank Pay Checkout"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:366
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:368
+msgid "Enable plugin"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:372
+msgid "Title"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:375
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:381
+msgid "Description"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:384
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:390
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:392
+msgid "Payee Id"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:399
+msgid "\"Payee Id\" field can't be empty."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:406
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:408
+msgid "Access Token"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:415
+msgid "\"Access Token\" field can't be empty."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:422
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:424
+msgid "Subsite"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:428
+msgid "Test Mode"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:430
+msgid "Enable Swedbank Pay Test Mode"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:434
+msgid "Debug"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:436
+msgid "Enable logging"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:440
+msgid "Language"
+msgstr "Språk"
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:448
+msgid "Language of pages displayed by Swedbank Pay during payment."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:454
+msgid "Auto Capture Intent"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:456
+msgid "Enable Auto Capture Intent"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:457
+msgid ""
+"A one phase option that enable capture of funds automatically after "
+"authorization."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:462
+msgid "Instant Capture"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:463
+msgid ""
+"Capture payment automatically depends on the product type. It's working when "
+"Auto Capture Intent is off."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:467
+msgid "Virtual products"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:468
+msgid "Physical  products"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:469
+msgid "Recurring (subscription) products"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:470
+msgid "Fees"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:476
+msgid "Checkout Method"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:479
+msgid "Seamless View"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:480
+msgid "Redirect"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:482
+msgid "It works when Instant Checkout is off."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:487
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:489
+msgid "Terms & Conditions Url"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:493
+msgid "Logo Url"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:495
+msgid ""
+"The URL that will be used for showing the customer logo. Must be a picture "
+"with maximum 50px height and 400px width. Require https."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:501
+msgid "Logo Url is invalid."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:503
+msgid "Logo Url should use https scheme."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:511
+msgid "Send payer information"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:513
+msgid "Send billing/delivery addresses of payer to Swedbank Pay"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:517
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:519
+msgid "Reject Credit Cards"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:523
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:525
+msgid "Reject Debit Cards"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:529
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:531
+msgid "Reject Consumer Cards"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:535
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:537
+msgid "Reject Corporate Cards"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:671
+#: ../includes/class-wc-swedbank-pay-instant-checkout.php:226
+msgid ""
+"Please read and accept the terms and conditions to proceed with your order."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:675
+#: ../includes/class-wc-swedbank-pay-instant-checkout.php:230
+msgid "Validation is failed. Please check entered data on the form."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:751
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1064
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1119
+msgid "Customer has been redirected to Swedbank Pay."
+msgstr "Kunden har skickats till Swedbank Pay."
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:789
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:812
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:822
+#: ../vendor/swedbank-pay/swedbank-pay-woocommerce-core/src/SwedbankPay/Core/Adapter/WC_Adapter.php:783
+msgid "There was a problem adding the card."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:817
+msgid "Payment method successfully added."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:906
+#: ../templates/checkout/thankyou.php:31
+msgid "Please wait. We're checking the order status."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1041
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1289
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1320
+msgid "Payment method was updated."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1332
+msgid "Payment failed."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1339
+msgid "Payment canceled."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1570
+msgid "Amount must be positive."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1704
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:1706
+msgid "Refund"
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:2342
+#, php-format
+msgid "Failed to charge \"%1$s\". %2$s."
+msgstr ""
+
+#: ../includes/class-wc-gateway-swedbank-pay-checkout.php:2371
+#, php-format
+msgid "Via %1$s card ending in %2$s/%3$s"
+msgstr ""
+
+#: ../includes/class-wc-payment-token-swedbank-pay.php:196
+#, php-format
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-checkin.php:160
+#: ../includes/class-wc-swedbank-pay-checkin.php:162
+msgid "Enable Checkin on Swedbank Pay Checkout"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-checkin.php:167
+#: ../includes/class-wc-swedbank-pay-checkin.php:174
+msgid "Checkin country"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-checkin.php:170
+#: ../templates/checkout/swedbank-pay/checkin.php:23
+msgid "Sweden"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-checkin.php:171
+#: ../templates/checkout/swedbank-pay/checkin.php:26
+msgid "Norway"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-checkin.php:172
+msgid "Customer can choose"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-checkin.php:179
+#: ../includes/class-wc-swedbank-pay-checkin.php:181
+msgid "Require checkin"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-checkin.php:186
+#: ../includes/class-wc-swedbank-pay-checkin.php:188
+msgid "Allow to edit the address after Checkin."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-checkin.php:243
+msgid "You must check in to be able to pay."
+msgstr "Du måste checka in för att kunna betala."
+
+#: ../includes/class-wc-swedbank-pay-instant-capture.php:291
+#: ../vendor/swedbank-pay/swedbank-pay-woocommerce-core/src/SwedbankPay/Core/Adapter/WC_Adapter.php:272
+msgid "Shipping"
+msgstr "Leverans"
+
+#: ../includes/class-wc-swedbank-pay-instant-capture.php:339
+#: ../vendor/swedbank-pay/swedbank-pay-woocommerce-core/src/SwedbankPay/Core/Adapter/WC_Adapter.php:317
+#: ../vendor/swedbank-pay/swedbank-pay-woocommerce-core/src/SwedbankPay/Core/Adapter/WC_Adapter.php:878
+msgid "Discount"
+msgstr "Rabatt"
+
+#: ../includes/class-wc-swedbank-pay-instant-checkout.php:110
+#: ../includes/class-wc-swedbank-pay-instant-checkout.php:115
+msgid "Use Swedbank Pay Checkout instead of WooCommerce Checkout"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-instant-checkout.php:375
+#: ../includes/class-wc-swedbank-pay-instant-checkout.php:384
+msgid "Phone number is invalid. Please change it and submit the form again."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-instant-checkout.php:407
+#: ../includes/class-wc-swedbank-pay-instant-checkout.php:416
+msgid "Unable to verify consumer profile reference. Try to login again."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-invoice-fee.php:105
+#: ../includes/class-wc-swedbank-pay-invoice-fee.php:154
+msgid "Invoice Fee"
+msgstr "Fakturaavgift"
+
+#: ../includes/class-wc-swedbank-pay-invoice-fee.php:110
+msgid "Invoice fee. Set 0 to disable."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-invoice-fee.php:115
+#: ../includes/class-wc-swedbank-pay-invoice-fee.php:117
+msgid "Invoice Fee is Taxable"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-invoice-fee.php:122
+msgid "Tax class of Invoice Fee"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-invoice-fee.php:125
+msgid "Tax class of Invoice Fee."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-invoice-fee.php:200
+msgid "Standard"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-transactions.php:104
+msgid "Failed to install the transaction table."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-transactions.php:126
+msgid "Failed to insert the transaction to the table."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-transactions.php:148
+msgid "Failed to delete the transaction from the table."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-transactions.php:177
+msgid "Failed to update the transaction in the table."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-pay-transactions.php:241
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-plugin.php:260
+#: ../includes/class-wc-swedbank-plugin.php:277
+#, php-format
+msgid "Order status rollback. %1$s"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-plugin.php:314
+msgid "Swedbank Pay Payments Actions"
+msgstr ""
+
+#: ../includes/class-wc-swedbank-plugin.php:416
+msgid "Please wait..."
+msgstr "Vänligen vänta..."
+
+#: ../includes/class-wc-swedbank-plugin.php:443
+msgid "Capture success."
+msgstr ""
+
+#: ../includes/class-wc-swedbank-plugin.php:469
+msgid "Cancel success."
+msgstr ""
+
+#: ../swedbank-pay-woocommerce-checkout.php:69
+msgid "Settings"
+msgstr ""
+
+#: ../templates/admin/action-buttons.php:16
+#: ../templates/admin/payment-actions.php:41
+msgid "Capture Payment"
+msgstr ""
+
+#: ../templates/admin/action-buttons.php:25
+#: ../templates/admin/payment-actions.php:50
+msgid "Cancel Payment"
+msgstr ""
+
+#: ../templates/admin/payment-actions.php:14
+msgid "Payment Info"
+msgstr ""
+
+#: ../templates/admin/payment-actions.php:17
+msgid "Number"
+msgstr ""
+
+#: ../templates/admin/payment-actions.php:22
+msgid "Instrument"
+msgstr ""
+
+#: ../templates/admin/payment-actions.php:27
+msgid "Intent"
+msgstr ""
+
+#: ../templates/admin/payment-actions.php:32
+msgid "State"
+msgstr ""
+
+#: ../templates/checkout/swedbank-pay/checkin.php:17
+msgid "Your information"
+msgstr "Din information"
+
+#: ../templates/checkout/swedbank-pay/checkin.php:20
+msgid "Choose your country"
+msgstr ""
+
+#: ../templates/checkout/swedbank-pay/checkin.php:46
+msgid "Change the address"
+msgstr "Byt adress"
+
+#: ../templates/checkout/swedbank-pay/form-billing.php:43
+msgid "Create an account?"
+msgstr ""
+
+#: ../templates/checkout/swedbank-pay/form-checkout.php:11
+msgid "You must be logged in to checkout."
+msgstr "Du måste checka in för att kunna checka ut"
+
+#: ../templates/checkout/swedbank-pay/form-checkout.php:39
+msgid "Your order"
+msgstr ""
+
+#: ../templates/checkout/swedbank-pay/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr ""
+
+#: ../templates/checkout/swedbank-pay/form-shipping.php:57
+msgid "Additional information"
+msgstr ""
+
+#: ../templates/checkout/swedbank-pay/payment.php:8
+msgid "Payment"
+msgstr "Betalsätt"
+
+#: ../templates/checkout/thankyou.php:41
+msgid "Order number:"
+msgstr ""
+
+#: ../templates/checkout/thankyou.php:46
+msgid "Date:"
+msgstr ""
+
+#: ../templates/checkout/thankyou.php:52
+msgid "Email:"
+msgstr ""
+
+#: ../templates/checkout/thankyou.php:58
+msgid "Total:"
+msgstr ""
+
+#: ../templates/checkout/thankyou.php:64
+#| msgid "Payment"
+msgid "Payment method:"
+msgstr ""
+
+#: ../templates/checkout/thankyou.php:73
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: ../templates/checkout/thankyou.php:76
+#| msgid "Payment"
+msgid "Pay"
+msgstr ""
+
+#: ../templates/checkout/thankyou.php:78
+msgid "My account"
+msgstr ""
+
+#: ../vendor/swedbank-pay/swedbank-pay-woocommerce-core/src/SwedbankPay/Core/Adapter/WC_Adapter.php:372
+#, php-format
+msgid "Order #%1$s"
+msgstr ""
+
+#: ../vendor/swedbank-pay/swedbank-pay-woocommerce-core/src/SwedbankPay/Core/Adapter/WC_Adapter.php:766
+msgid "Payment Token class is undefined."
+msgstr ""
